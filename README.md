@@ -1,45 +1,34 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# UX
+### __Website Goals__:
+* The basic goal of this Website HEALTHY WORLD, HEALTHY US! is to let people take initiative inorder to clean the Mother earth and to make small changes in their life-style and make it healthier.
+* My target audiance is youth and employed people because their lifes are very busy with study and work that its hard for them to just start implimenting these changes out of their routine life.
 
-Welcome USER_NAME,
+#### __User goals are__:
+* We all have amazing ideas to make the world green and more liveable for future generations but most of the times we find ourselves without any platform to put that amazing idea into.
+* Almost everybody wants a clean environment to live or to go to fun entertainment places that are clean. 
+* A healthy life-style is not a useful but a need and necessity in modern time. Realizing this fact now people want to change their life-style in terms of diet.
+* Generally people want to feel good about themselves that they are contributing in making world green and just sending a donation while siting on our couch won't give that feeling. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This website would be great in acheiving these goals mentioned above because:
 
-## Gitpod Reminders
+* It would provide a platform for participants to put out their amazing ideas in weekly coffee and brain-storming sessions. where the ideas will be presented and/or made batter with the help of other participants.
+* Helping out to make world a better/cleaner place starting with our own neighborhood can essencially create a confidenace and happiness that would go on with the participants a long way in making their day/week and life better.
+* participants will be motivated to make dietary changes in their daily life-style and they would be given new inovative recepies that other participants have tried to make this coversion easy and smooth in order to mantain a healthy life style.
+* Along with advantage of a clean neighborhood and self-confidenace this cleaning will provide as an exercise including walking and carring weight which would be part of a healthy life-style.
+* As mentioned earlier that donating money while siting at home isn't sufficiant to provide confidence and heppiness that we are helping our community, On the other hand participating in such activities would help participants achive that feeling at it's full potential.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### **Developement and Bussiness goals**:
+* A website created to motivated people to help change world and themselves.
+* A website created with HTML5, CSS3 and bootstrap framework which is exciting and motivating to look at.
+* I am as a developer happy and excited to make it a part of my work port-folio.
+* In future seeing the popularity of this project i can think of turning it into an organiztion that targets people from all around the world making these changes in their lifes.
 
-`python3 -m http.server`
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+### __User Stories__:
+1. As a person looking to make a difference in myself and world i would want to see what is this site for which i would easily find and understand by hero image and clear information presented on front page.
+2. I would like to have intuative navigation so i can surf the website easily so my website is easy to navigate with a nav-bar at top right and with clear discription of where it takes user.
+3. As a new user i would like to have all the necessary information infront of me so i don't waste my time looking for what i don't need so the Website has all necessity information on front page.
+4. When is see and like the webiste and it's purpose i would like to start so for that there would be a campaign for new year cleaning so the user starts with it and be part of a big team.
+5. I would like to have options to sign-up either when i'm on first page reading information or on last page reading about meet-ups. To join the group there are two sign up buttons 1. on top of page on all screen sizes and one on the third page of website with the meet-ups information.
+6. I would like to sign-up quick so to make the process easy the top-right button of sign up is a modal form bootstrap so there is a pop-up window that easily sign-up user.
+7. The goal of website is to make user participate in the good work so With the intuative design and easy sign-up user would feel great after signing up and taking part in a campaign as New Years Resolution.
+8. I would like to contact who made the Website and took the initiative for that there would be a contact us information in footer.
