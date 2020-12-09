@@ -1,3 +1,7 @@
+# project name and summry of concept
+
+
+
 # UX
 ### __Website Goals__:
 * The basic goal of this Website HEALTHY WORLD, HEALTHY US! is to let people take initiative inorder to clean the Mother earth and to make small changes in their life-style and make it healthier.
