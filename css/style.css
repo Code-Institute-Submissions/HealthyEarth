@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@300;400;700&display=swap');
+
+
+
+body {
+    font-family: "Roboto:400", sans-serif;
+    width: 100%;
+}
+/*-----------------------------------------------------------Nav */
+.navbar {
+    background-color: #188832;;
+    opacity: 0.9;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-brand{
+    font-size: 130% !important;
+}
+
+
+.navbar a {
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.navbar-nav a {
+    margin-left: 18px;
+}
+
+
+
+/*-----------------------------------------------------------hero image */
+.hero-image {
+    height: 80vh;
+
+    background: url(images/cleanearth.jpeg) no-repeat;
+    background-position: fixed;
+    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: fill;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+#cover-text {
+    color: white;
+    font-family: 'Lobster Two', cursive;
+    font-style: italic;
+    font-weight: bold;
+    height: 150px;
+    width: 330px;
+    letter-spacing: 3px;
+    padding: 15px 23px;
+
+    position: absolute;
+    background-color: rgba(221, 76, 74, 0.658);
+    bottom: 15px;
+    right: 10px;
+}
+
+
+/*-----------------------------------------------------------Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-main{
+    color: white;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.Jumbotron-text{
+    color: white;
+}
+
+/*-----------------------------------------------------------Importance */
+
+.container-importance{
+
+}
+
+
+.impo-heading {
+    margin-top: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.container-importance i {
+    font-size: 40px;
+    padding-left: 20px;
+    color: #188832;
+}
+
+.impo-text {
+    margin-top: 25px;
+}
+
+p {
+    font-family: 'Lobster Two', cursive;
+    font-size: 18px;
+}
+
+.hr-green {
+    border: 2px solid #188832;
+    width: 200px;
+}
+
+.section-column{
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+/*-----------------------------------------------------------feedback */
+
+.feedback-container {
+    height: 500px;
+    margin-top: 35px;
+}
+
+.feedback-heading{
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.feedback-text {
+    margin-top: 40px;
+    padding-left: 10px;
+}
+
+.third-feedback{
+    margin-top: 50px;
+}
+
+
+/*-----------------------------------------------------------FAQs */
+
+.faqs-container a {
+    background-color: #188832;
+}
+
+.faqs-heading{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.faqs{
+    margin-top: 18px;
+}
+
+/*-----------------------------------------------------------Connect */
+
+.connect-container{
+    height: 300px;
+}
+
+.connect-heading{
+    margin-top: 55px;
+    font-weight: 700;
+}
+
+
+.socialmedia-icons a{
+    font-size: 60px;
+    word-spacing: 40px;
+    text-decoration: none;
+}
+
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-instagram{
+    color: #b35151;
+}
+
+.fa-twitter{
+    color: #00aced;
+}
+.fa-youtube{
+    color: #bb0000;
+}
+.fa-google-plus-g{
+    color: #dd4b39;
+}
+
+/*-----------------------------------------------------------Footer */
+
+footer {
+    color: white;
+}
+
+footer a {
+    color: black;
+}
+
+footer hr{
+    margin-left: 1px;
+    color: black;
+}
