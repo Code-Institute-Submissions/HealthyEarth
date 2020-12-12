@@ -24,6 +24,9 @@ body {
     font-weight: bold;
     font-size: 100%;
 }
+.navbar a:hover{
+    color: #0e491c;
+}
 
 .navbar-nav a {
     margin-left: 18px;
@@ -35,7 +38,7 @@ body {
 .hero-image {
     height: 80vh;
 
-    background: url(images/cleanearth.jpeg) no-repeat;
+    background: url("images/cleanearth.jpeg") no-repeat;
     background-position: fixed;
     background-size: cover;
   -webkit-background-size: cover;
@@ -116,17 +119,12 @@ p {
     width: 200px;
 }
 
-.section-column{
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-}
+
 
 /*-----------------------------------------------------------feedback */
 
 .feedback-container {
-    height: 500px;
-    margin-top: 35px;
+    margin-top: 65px;
 }
 
 .feedback-heading{
@@ -137,6 +135,7 @@ p {
 .feedback-text {
     margin-top: 40px;
     padding-left: 10px;
+
 }
 
 .third-feedback{
@@ -145,6 +144,10 @@ p {
 
 
 /*-----------------------------------------------------------FAQs */
+
+.faqs-container{
+    margin-top: 65px;
+}
 
 .faqs-container a {
     background-color: #188832;
@@ -156,13 +159,13 @@ p {
 }
 
 .faqs{
-    margin-top: 18px;
+    margin-top: 20px;
 }
 
 /*-----------------------------------------------------------Connect */
 
 .connect-container{
-    height: 300px;
+
 }
 
 .connect-heading{
@@ -194,10 +197,31 @@ p {
     color: #dd4b39;
 }
 
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-youtube:hover,
+.fa-google-plus-g:hover{
+    color: #188832;
+}
+
 /*-----------------------------------------------------------Footer */
 
-footer {
+.footer-container{
+    margin-top: 65px;
+}
+
+.footer-content{
+    margin-top: 25px;
+}
+
+.footer-header{
+    padding-left: 10px;
+}
+
+footer p{
     color: white;
+    margin-top: 15px;
 }
 
 footer a {
@@ -207,4 +231,18 @@ footer a {
 footer hr{
     margin-left: 1px;
     color: black;
+}
+
+/*-----------------------------------------------------------Modal */
+
+.modal-body {
+    background: url("images/modal.jpeg") no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    color: white;
+}
+
+.modal-header {
+    background-color:#188832 ;
+    color: white;
 }
