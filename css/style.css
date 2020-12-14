@@ -14,11 +14,6 @@ body {
     font-weight: bold;
 }
 
-.navbar-brand{
-    font-size: 130% !important;
-}
-
-
 .navbar a {
     color: white;
     font-weight: bold;
@@ -26,6 +21,10 @@ body {
 }
 .navbar a:hover{
     color: #0e491c;
+}
+
+.navbar-brand{
+    font-size: 130% !important;
 }
 
 .navbar-nav a {
@@ -43,6 +42,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  opacity: 1;
 
     display: flex;
     align-items: center;
@@ -87,11 +87,11 @@ body {
 /*-----------------------------------------------------------Importance */
 
 .container-importance{
-
+    margin: 20px 0 65px 0;
 }
 
 
-.impo-heading {
+.firstsection-heading {
     margin-top: 35px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -103,7 +103,7 @@ body {
     color: #188832;
 }
 
-.impo-text {
+.firstsection-text {
     margin-top: 25px;
 }
 
@@ -126,8 +126,9 @@ p {
 }
 
 .feedback-heading{
-    letter-spacing: 2px;
+    margin-top: 35px;
     font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .feedback-text {
@@ -136,8 +137,8 @@ p {
 
 }
 
-.third-feedback{
-    margin-top: 50px;
+.margin-top-50{
+    margin-top:50px;
 }
 
 
@@ -147,13 +148,21 @@ p {
     margin-top: 65px;
 }
 
+.faqs-heading{
+    margin-top: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
 .faqs-container a {
     background-color: #188832;
 }
 
-.faqs-heading{
+
+.card-heading{
     font-weight: bold;
-    letter-spacing: 2px;
+
 }
 
 .faqs{
@@ -167,8 +176,9 @@ p {
 }
 
 .connect-heading{
-    margin-top: 55px;
-    font-weight: 700;
+    margin-top: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 
@@ -207,6 +217,7 @@ p {
 
 .footer-container{
     margin-top: 65px;
+    text-align: center;
 }
 
 .footer-content{
@@ -220,15 +231,24 @@ p {
 footer p{
     color: white;
     margin-top: 15px;
+    font-size: 1.2em;
+    text-align: center;
 }
 
 footer a {
     color: black;
 }
 
-footer hr{
-    margin-left: 1px;
+
+.footer-icons{
+    font-size: 1.5em;
     color: black;
+}
+
+.hr-green-footer {
+    text-align: center;
+    border: 2px solid #188832;
+    width: 200px;
 }
 
 /*-----------------------------------------------------------Modal */
@@ -244,6 +264,12 @@ footer hr{
     color: white;
 }
 
+/*-----------------------------------------------------------From */
+
+.form-text {
+    color: white !important;
+}
+
 /*-----------------------------------------------------------hero image health page */
 
 .hero-image-health {
@@ -254,7 +280,15 @@ footer hr{
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+
+  display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
+
+/*-----------------------------------------------------------Hero image meetup Page */
 
 .hero-image-meetup {
     height: 80vh;
@@ -264,5 +298,16 @@ footer hr{
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+
+
+  display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
 
+.meetup-heading {
+    margin: 65px 0 30px 0;
+    color: #188832;
+}
