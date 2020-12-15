@@ -6,6 +6,8 @@ body {
     font-family: "Roboto:400", sans-serif;
     width: 100%;
 }
+
+
 /*-----------------------------------------------------------Nav */
 .navbar {
     background-color: #188832;;
@@ -20,7 +22,7 @@ body {
     font-size: 100%;
 }
 .navbar a:hover{
-    color: #0e491c;
+    color: #0a3f16;
 }
 
 .navbar-brand{
@@ -31,6 +33,9 @@ body {
     margin-left: 18px;
 }
 
+.active a{
+    color: #0a3f16;
+}
 
 
 /*-----------------------------------------------------------hero image landing page */
@@ -59,7 +64,8 @@ body {
     height: 150px;
     width: 330px;
     letter-spacing: 3px;
-    padding: 15px 23px;
+    padding: 1.3em 1.3em;
+    text-align: center;
 
     position: absolute;
     background-color: rgba(221, 76, 74, 0.658);
@@ -94,22 +100,21 @@ body {
 .firstsection-heading {
     margin-top: 35px;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 0.08em;
 }
 
 .container-importance i {
-    font-size: 40px;
-    padding-left: 20px;
+    font-size: 2.8em;
     color: #188832;
 }
 
 .firstsection-text {
-    margin-top: 25px;
+    margin: 2.4em 0em 2.9em 0em;
 }
 
 p {
     font-family: 'Lobster Two', cursive;
-    font-size: 18px;
+    font-size: 1.2em;
 }
 
 .hr-green {
@@ -122,17 +127,17 @@ p {
 /*-----------------------------------------------------------feedback */
 
 .feedback-container {
-    margin-top: 65px;
+    margin-top: 20px 0 65px 0;
 }
 
 .feedback-heading{
     margin-top: 35px;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 0.08em;
 }
 
 .feedback-text {
-    margin-top: 40px;
+    margin: 2.4em 0em 5.4em 0em;
     padding-left: 10px;
 
 }
@@ -145,11 +150,11 @@ p {
 /*-----------------------------------------------------------FAQs */
 
 .faqs-container{
-    margin-top: 65px;
+    margin-top: 3em 0em 6em 0em;
 }
 
 .faqs-heading{
-    margin-top: 35px;
+    margin: 3em 0em 2em 0em;
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -172,13 +177,13 @@ p {
 /*-----------------------------------------------------------Connect */
 
 .connect-container{
-
+    margin: 3em 0em 6em 0em;
 }
 
-.connect-heading{
+.section-headings{
     margin-top: 35px;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 0.08em;
 }
 
 
@@ -251,6 +256,10 @@ footer a {
     width: 200px;
 }
 
+.offset-1 {
+    
+}
+
 /*-----------------------------------------------------------Modal */
 
 .modal-body {
@@ -263,6 +272,15 @@ footer a {
     background-color:#188832 ;
     color: white;
 }
+
+.modal-btn-close {
+   margin: 0 auto;
+}
+
+.modal-btn-submit {
+    margin: 0 auto;
+}
+
 
 /*-----------------------------------------------------------From */
 
@@ -281,7 +299,7 @@ footer a {
   -moz-background-size: cover;
   -o-background-size: cover;
 
-  display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 
