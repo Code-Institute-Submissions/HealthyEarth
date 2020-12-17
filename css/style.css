@@ -30,7 +30,7 @@ body {
 }
 
 .navbar-nav a {
-    margin-left: 18px;
+    margin-left: 1.2em;
 }
 
 .active a{
@@ -66,16 +66,16 @@ body {
     font-family: 'Lobster Two', cursive;
     font-style: italic;
     font-weight: bold;
-    height: 150px;
-    width: 330px;
-    letter-spacing: 3px;
+    height: 9.5em;
+    width: 20.5em;
+    letter-spacing: 0.2em;
     padding: 1.3em 1.3em;
     text-align: center;
 
     position: absolute;
     background-color: rgba(221, 76, 74, 0.658);
-    bottom: 15px;
-    right: 10px;
+    bottom: 0.9em;
+    right: 0.7em;
 }
 
 
@@ -88,7 +88,7 @@ body {
 .jumbotron-main{
     color: white;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 1.2em;
 }
 
 .Jumbotron-text{
@@ -98,12 +98,12 @@ body {
 /*-----------------------------------------------------------Importance */
 
 .container-importance{
-    margin: 1.6em 0em 4em 0em;
+    margin: 1em 0em 2em 0em;
 }
 
 
 .firstsection-heading {
-    margin-top: 35px;
+    margin-top: 1.6em;
     font-weight: bold;
     letter-spacing: 0.08em;
 }
@@ -114,7 +114,7 @@ body {
 }
 
 .media {
-    margin: 3.5em 0em 2.9em 0em;
+    margin: 3.5em 0em 2.5em 0em;
 }
 
 p {
@@ -123,50 +123,42 @@ p {
 }
 
 .hr-green {
-    border: 2px solid #188832;
-    width: 200px;
+    border: 0.17em solid #188832;
+    width: 13em;
+    background-color: #188832;
 }
 
 .firstsection-icon{
-    padding: 0em;
-    margin-top: 2.5em;
+    padding: 0em 1em 0em 1em;
+    margin-top: 2em;
 }
 
+.importance-section-content {
+    padding: 0em 1em 0em 1em;
+}
 
 
 /*-----------------------------------------------------------feedback */
 
 .feedback-container {
-    margin-top: 1.6em 0em 4em 0em;
+   margin: 1em 0em 0em 0em;
 }
 
-.feedback-heading{
-    margin-top: 35px;
-    font-weight: bold;
-    letter-spacing: 0.08em;
-}
 
 .feedback-text {
-    margin: 2.4em 0em 5.4em 0em;
-    padding-left: 10px;
-
+    margin: 0em 0em 2.5em 0em;
+    padding-left: 0.8em;
 }
 
 .margin-top-50{
-    margin-top:50px;
+    margin-top: 1.8em;
 }
 
 
 /*-----------------------------------------------------------FAQs */
 
 .faqs-container{
-    margin-top: 1.6em 0em 4em 0em;
-}
-
-.faqs-heading{
-    margin: 3em 0em 2em 0em;
-    font-weight: bold;
-    letter-spacing: 2px;
+    margin: 1.6em 0em 4em 0em;
 }
 
 
@@ -177,30 +169,30 @@ p {
 
 .card-heading{
     font-weight: bold;
-
 }
 
 .faqs{
-    margin-top: 20px;
+    margin-top: 2.9em;
 }
 
-/*-----------------------------------------------------------Connect */
 
-.connect-container{
-    margin: 1.6em 0em 4em 0em;
+/*-----------------------------------------------------------Connect */
+.connect-content{
+    margin: 2em 0em 2em 0em;
 }
 
 .section-headings{
-    margin-top: 35px;
+    margin-top: 2.1em;
     font-weight: bold;
     letter-spacing: 0.08em;
 }
 
 
 .socialmedia-icons a{
-    font-size: 60px;
-    word-spacing: 40px;
+    font-size: 3.7em;
+    word-spacing: 1.3em;
     text-decoration: none;
+   
 }
 
 .fa-facebook{
@@ -231,21 +223,18 @@ p {
 /*-----------------------------------------------------------Footer */
 
 .footer-container{
-    margin-top: 65px;
+    margin-top: 4em;
     text-align: center;
 }
 
 .footer-content{
-    margin-top: 25px;
+    margin-top: 2em;
 }
 
-.footer-header{
-    padding-left: 10px;
-}
 
 footer p{
     color: white;
-    margin-top: 15px;
+    margin-top: 1em;
     font-size: 1.2em;
     text-align: center;
 }
@@ -262,8 +251,9 @@ footer a {
 
 .hr-green-footer {
     text-align: center;
-    border: 2px solid #188832;
-    width: 200px;
+    border: 0.2em solid #188832;
+    background-color: #188832;
+    width: 13em;
 }
 
 /*-----------------------------------------------------------Modal */
@@ -342,7 +332,7 @@ footer a {
 }
 
 .meetup-heading {
-    margin: 65px 0 30px 0;
+    margin: 4empx 0 1.9em 0;
     color: #188832;
 }
 
