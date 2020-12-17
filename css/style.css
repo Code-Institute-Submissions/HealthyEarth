@@ -42,17 +42,22 @@ body {
 .hero-image {
     height: 80vh;
 
-    background: url("images/cleanearth.jpeg") no-repeat;
+    background:linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("images/cleanearth.jpeg") no-repeat;
+    background-position: center;
+    overflow: hidden;
+
     background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  opacity: 1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
@@ -93,7 +98,7 @@ body {
 /*-----------------------------------------------------------Importance */
 
 .container-importance{
-    margin: 20px 0 65px 0;
+    margin: 1.6em 0em 4em 0em;
 }
 
 
@@ -108,8 +113,8 @@ body {
     color: #188832;
 }
 
-.firstsection-text {
-    margin: 2.4em 0em 2.9em 0em;
+.media {
+    margin: 3.5em 0em 2.9em 0em;
 }
 
 p {
@@ -122,12 +127,17 @@ p {
     width: 200px;
 }
 
+.firstsection-icon{
+    padding: 0em;
+    margin-top: 2.5em;
+}
+
 
 
 /*-----------------------------------------------------------feedback */
 
 .feedback-container {
-    margin-top: 20px 0 65px 0;
+    margin-top: 1.6em 0em 4em 0em;
 }
 
 .feedback-heading{
@@ -150,7 +160,7 @@ p {
 /*-----------------------------------------------------------FAQs */
 
 .faqs-container{
-    margin-top: 3em 0em 6em 0em;
+    margin-top: 1.6em 0em 4em 0em;
 }
 
 .faqs-heading{
@@ -177,7 +187,7 @@ p {
 /*-----------------------------------------------------------Connect */
 
 .connect-container{
-    margin: 3em 0em 6em 0em;
+    margin: 1.6em 0em 4em 0em;
 }
 
 .section-headings{
@@ -256,10 +266,6 @@ footer a {
     width: 200px;
 }
 
-.offset-1 {
-    
-}
-
 /*-----------------------------------------------------------Modal */
 
 .modal-body {
@@ -292,8 +298,14 @@ footer a {
 
 .hero-image-health {
     height: 80vh;
+    background:linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("images/vegetarian.jpeg") no-repeat;
+    background-position: center;
+    overflow: hidden;
 
-    background: url("images/vegetarian.jpeg") no-repeat;
     background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -302,7 +314,6 @@ footer a {
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
@@ -310,18 +321,23 @@ footer a {
 
 .hero-image-meetup {
     height: 80vh;
+    
+    background:linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("images/meetup.jpeg") no-repeat;
+    background-position: center;
+    overflow: hidden;
 
-    background: url("images/meetup.jpeg") no-repeat;
     background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
 
-
-  display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
@@ -329,3 +345,4 @@ footer a {
     margin: 65px 0 30px 0;
     color: #188832;
 }
+
