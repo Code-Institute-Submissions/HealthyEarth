@@ -2,18 +2,17 @@
 # Healthy world Healthy Us MS1 project.
 ## project name and summry of concept
 * With increasing garbage in world and awareness in diet people want to clean that polution in their areas and make changes in their life style so that they can lead a healthy life. For some people it is easy but for other they need a push start. The primary purpose of this website is to encourage people to clean their environment and to help them make healthy changes in their life with the help of a group/participants so they know they are not alone in this.
-## view live website **here (add an anchor for deploied website.)**
+## view live website [here.](https://ramish93.github.io/HealthyEarth/)
 ---
 ## Table of Content:
-* Overview
-* Description.
-* Ux.
-* Website and User goals.
-* User Stories.
-* Technologies Used.
-* Testing.
-* Bugs and fixes/ remaining Bugs.
-
+- [Overview](#overview)
+- [Description](#description)
+- [Ux](#ux)
+- [User Stories](#user-stories)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+- [Bugs and fixes](#Bugs-and-fixes)
+- [Deployment](#deployment)
 ## __Overview__:
 I designed this website in three pages with same navigation, connect with us and footer section to show consistancy to user and so that they can move around and find signup and contact information not matter which page they are on.
 As tremendous increase in awareness now everybody wants to participate in cleaning mother earth and change their life style.
@@ -125,6 +124,15 @@ I wanted to make first-time user see what this website is about without reading 
 - [Gresy spoon cafe](https://www.greasyspoon.se/) - Used for help adding content and location of where we do meet-ups.
 ---
 ### __Bugs and fixes:__
+* My hero image was too bright and the text wasn't clear. i was using opacity on image and then is used linear-gradient technology as follow: 
+__background:linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("images/cleanearth.jpeg") no-repeat;
+    background-position: center;
+    overflow: hidden;__
+    and the image became dark as i wanted it to be.
 * My Importance section and Feedback sections were merging into each other in mobile view but on desktop they were as i wanted them to be. I searched online on youtube, StackOverFlow and W3School i checked my Css file 
 to fix the bug. The videos and StackOverFlow helped me figure out the problem which was that i gave Importance Container a fixed height which was causing the merging of content.
 * My cover-text was mixing with the heading and text of jumbotron in some mobile views and ipad view i added media quries to fix it but its still not fixed in a few mobile views.
@@ -133,10 +141,15 @@ to fix the bug. The videos and StackOverFlow helped me figure out the problem wh
 * My form was not validating. upon clicking submit button nothing was happening despite of giving it required attribute. upon checking online on [code acadmey form submit](https://www.codecademy.com/courses/learn-html/lessons/html-form-validation/exercises/required) it was my silly mistake of not adding type="submit" to my button.
 ---
 ### __Unfixed bugs__:
+* On mobile devises the cover-text container is not showing its full text. it is convaying the information it is intended to but the full text if not visible. I tried to fix it in many ways but everytime i ended up disfiguring some other part of that section. I will however, keep on trying to figure it out.
 
 
 ---
 ### __Testing__:
+* Form and Modal are tested. If we press the submit button without putting any information in fields the response should be 'Please fill out this field'. it was checked acress different Android Mobiles and tablets and Apple Mobile and tablets.
+* All the links in across all three pages take the user to desired location and they open in another tab. They also get highlighted and underlined when hovered and they also have different colors than regular text to make user see them with ease.
+* 
+
 
 
 ___

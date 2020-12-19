@@ -466,7 +466,7 @@ footer a {
 }
 
 
-@media (min-width:450px) {
+@media (max-width:450px) {
     .socialmedia-icons a{
     font-size: 2.9em;
     word-spacing: 0.9em;
