@@ -96,7 +96,17 @@ I wanted to make first-time user see what this website is about without reading 
  ### __Features Left to Implement__:
  * I would love to add a validity to the signup form, but it was not in scope of this MS project.
  * I would love to expand the website world wide but with the limited time for MS1 project its only for stockholm now.
-
+### Design Choices:
+* __Font:__ The font family Roboto was chosen for this project because is has good readability and its very popular and 
+ second font is Alegreya because it looks beautiful and appealing.
+ * __Images:__ Images choser for the landing page shows a beautiful beach with some garbage in it to show that the beauty 
+ of beach is affected by garbage and it our responsibility to clean it.
+ * picture for Healhty diet page has asparagus in it which is a very healthy and loved vegtable. So it will be appealing to people 
+ to convert to plant-based diet.
+ * picture for meet-up page is a group of people enjoying coffee and having a conversation to show that is exactly how we intend to do 
+ out meet-ups.
+ * __Color:__ Color for the website is green which is the color of Mother-earth. To inspire user that this is how earth is supposed to be clean and green.
+ * color used for links is green so that user can differentiate between text and links.
 
 
 ### __Technologies Used__:
@@ -151,7 +161,44 @@ to fix the bug. The videos and StackOverFlow helped me figure out the problem wh
 * The webite is texted in __Android__: Samsung Note 3, Note 4, Galexy S8,S9 Moto 4G, Pixel 2 and 2XL, and __Apple__: Iphone 4,5,6,7,8 and X as well as Ipad and Ipad pro.
 
 * To ensure that the website is responsive across all pages i used. [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly?utm_source=gws&utm_medium=onebox&utm_campaign=suit). And the result is fully responsive.
+* Landing page,
+ ![mobile friendly page 1](../imagesmd/pagevlidate1.png)
+ ![mobile friendly page 1](/imagesmd/pagevalidate1.png?raw=true "Title")
 
 
 
 ___
+## Deployment
+* First a GIthub account was created, I created new repository by clicking the green button saying "new".In this project I used the Code Institute's student templet.
+* Click on the green "gitpod" button which is directed to to [Gitpod](https://gitpod.io/)
+* Gitpod is a cloud based version control software which is used to write all of the code for this project.
+* It was added commited and pushed in the terminal to Github where it is stored in a repository.
+* Under "Settings", I scrolled down to Github Pages and selected "Master Branch", to where the page was automated.
+* When it was selected, the project was pushed to Github pages and the URL is then displayed and on clicking it it brings to the weblink.
+* The code can be run locally by selecting "clone" which provides an URL you can use on your local computer or "download" option where one can download the zip file on your computer.
+
+To work on this project with local IDE like VScode etc:
+* Follow this link to [Healthy Earth Healthy Us!](https://ramish93.github.io/HealthyEarth/).
+* Under the Repo name choose "Clone or Download".
+* Copy URL in HTTP section.
+* In your Editor open the terminal and choose the folder you want to save this project in.
+* Type git clone and paste that HTTP URL.
+* Press enter and a clone of this repo will be created in your machine and you can work on it now.
+---
+
+## Credits
+
+### Content
+* The text for sections was inspired and edited from the website, [BBC.com plant based diet](https://www.bbc.com/news/science-environment-49238749),
+[University of Taxes Cancer Center](https://www.mdanderson.org/publications/focused-on-health/5-benefits-of-a-plant-based-diet.h20-1592991.html), [Gresy spoon cafe](https://www.greasyspoon.se/).
+
+### Media
+* The photos in this website were downloaded from Pexels and Unsplash.
+
+### Acknowledgements
+
+* The idea of this project was inspired because of growth in knowledge and responsibility of people to change the environment to help earth heal, to do something themselves with their own hands which will make them feel good
+ and to make changes in their life style to live a healthy life. This plat-form is to give 
+them a push start and to persue people who already want this change to start it.
+* My Mentor, **Nishant Kumar**, for his guidance, help and advising me to understand what kind of design is better for user.
+* Tutor Support, for their endless support, all the time and great atitude.
