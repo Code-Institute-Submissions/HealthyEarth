@@ -162,8 +162,13 @@ to fix the bug. The videos and StackOverFlow helped me figure out the problem wh
 
 * To ensure that the website is responsive across all pages i used. [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly?utm_source=gws&utm_medium=onebox&utm_campaign=suit). And the result is fully responsive.
 * Landing page,
- ![mobile friendly page 1](../imagesmd/pagevlidate1.png)
  ![mobile friendly page 1](/imagesmd/pagevalidate1.png?raw=true "Title")
+* health page:
+ ![mobile friendly page 2](/imagesmd/pagevalidate2.png?raw=true "Title")
+* Meetup page:
+ ![mobile friendly page 3](/imagesmd/pagevalidate3.png?raw=true "Title")
+
+
 
 
 
