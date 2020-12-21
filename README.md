@@ -1,4 +1,4 @@
-![alt text](images/screenshot of website.png)
+  ![Image of website(/imagesmd/website.png?raw=true "Title")
 # Healthy world Healthy Us MS1 project.
 ## project name and summry of concept
 * With increasing garbage in world and awareness in diet people want to clean that polution in their areas and make changes in their life style so that they can lead a healthy life. For some people it is easy but for other they need a push start. The primary purpose of this website is to encourage people to clean their environment and to help them make healthy changes in their life with the help of a group/participants so they know they are not alone in this.
@@ -167,6 +167,15 @@ to fix the bug. The videos and StackOverFlow helped me figure out the problem wh
  ![mobile friendly page 2](/imagesmd/pagevalidate2.png?raw=true "Title")
 * Meetup page:
  ![mobile friendly page 3](/imagesmd/pagevalidate3.png?raw=true "Title")
+ * For responsiveness across all devices the website [AmIResponsive](http://ami.responsivedesign.is/) is used. And result is.
+  ![Amiresponsive result](/imagesmd/amiresponsive.png?raw=true "Title")
+
+* For Html validation W3 Validator was used, click link to see result. [W3 Html validator](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-dd61392f-e80b-4db4-a829-cf89f148345b.ws-eu03.gitpod.io%2Findex.html).
+* Css validator was used to validate css, click link to see result. [W3 Css validator](https://jigsaw.w3.org/css-validator/validator)
+
+### Wireframes:
+*   ![WireFreames](/wireframes/wireframe.pdf?raw=true "Title")
+
 
 
 
