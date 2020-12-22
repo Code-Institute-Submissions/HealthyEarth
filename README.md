@@ -115,7 +115,7 @@ I wanted to make first-time user see what this website is about without reading 
 - [CSS](https://en.wikipedia.org/wiki/CSS)
 #### Libraries used:
 * Bootstrap 4.5 - A mobile-first responsive library used to construct various parts of the project, including the Navbar, Modal Forms, Media and Cards.
-* GoogleFonts - Montserrat and Sans-Serif fonts
+* GoogleFonts - Alegreya and Serif,Sans-Serif fonts
 * FontAwesome - Used frequently for icons used throughout the website
 * Balsamiq - used for the creation of wireframes
 #### Version Control:
@@ -124,25 +124,27 @@ I wanted to make first-time user see what this website is about without reading 
 #### Other:
 - [Code Institute Course Content](https://courses.codeinstitute.net/) - Source of learning code.
 - [ChromeDevTools](https://developers.google.com/web/tools/chrome-devtools) - Used frequently to detect any issues/bugs or layout differences.
-- [W3Schools](https://www.w3schools.com/) - used as a general resource.
-- [StackOverFlow](https://stackoverflow.com/) - used as a general resource for tips or questions.
+* [W3Schools](https://www.w3schools.com/) - used as a general resource.
+* [StackOverFlow](https://stackoverflow.com/) - used as a general resource for tips or questions.
 - [AmIResponsive](http://ami.responsivedesign.is/) - Used to check how the responsiveness of the website looks in different devices- available at the top of this [README](). 
-- [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test all pages on a mobile device
+* [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test all pages on a mobile device
 - [Youtube](https://www.youtube.com/) - Used for help in adding a favicon.
 - [BBC.com plant based diet](https://www.bbc.com/news/science-environment-49238749) - Used for help adding content for plant based diet.
-- [University of Taxes Cancer Center](https://www.mdanderson.org/publications/focused-on-health/5-benefits-of-a-plant-based-diet.h20-1592991.html) - Used for help adding content Healthy and strong lifestyle.
-- [Gresy spoon cafe](https://www.greasyspoon.se/) - Used for help adding content and location of where we do meet-ups.
+* [University of Taxes Cancer Center](https://www.mdanderson.org/publications/focused-on-health/5-benefits-of-a-plant-based-diet.h20-1592991.html) - Used for help adding content Healthy and strong lifestyle.
+* [Gresy spoon cafe](https://www.greasyspoon.se/) - Used for help adding content and location of where we do meet-ups.
 ---
 ### __Bugs and fixes:__
 * My hero image was too bright and the text wasn't clear. i was using opacity on image and then is used linear-gradient technology as follow: 
-__background:linear-gradient(
+
+  __background:linear-gradient(
       rgba(0, 0, 0, 0.1),
       rgba(0, 0, 0, 0.1)
     ),
     url("images/cleanearth.jpeg") no-repeat;
     background-position: center;
     overflow: hidden;__
-    and the image became dark as i wanted it to be.
+
+and the image became dark as i wanted it to be.
 * My Importance section and Feedback sections were merging into each other in mobile view but on desktop they were as i wanted them to be. I searched online on youtube, StackOverFlow and W3School i checked my Css file 
 to fix the bug. The videos and StackOverFlow helped me figure out the problem which was that i gave Importance Container a fixed height which was causing the merging of content.
 * My cover-text was mixing with the heading and text of jumbotron in some mobile views and ipad view i added media quries to fix it but its still not fixed in a few mobile views.
@@ -174,7 +176,18 @@ to fix the bug. The videos and StackOverFlow helped me figure out the problem wh
 * Css validator was used to validate css, click link to see result. [W3 Css validator](https://jigsaw.w3.org/css-validator/validator)
 
 ### Wireframes:
-*   ![WireFreames](/wireframes/wireframe.pdf?raw=true "Title")
+*  Please click the link to download PDF: ![WireFreames](/wireframes/wireframe.pdf?raw=true "Title")
+- Landing Page:
+  ![Image of website(/wireframes/page1.png?raw=true "Title")
+
+- Healthy diet Page:
+  ![Image of website(/wireframes/page2.png?raw=true "Title")
+
+- Meetup Page:
+  ![Image of website(/wireframes/page3.png?raw=true "Title")
+
+
+
 
 
 
@@ -215,4 +228,4 @@ To work on this project with local IDE like VScode etc:
  and to make changes in their life style to live a healthy life. This plat-form is to give 
 them a push start and to persue people who already want this change to start it.
 * My Mentor, **Nishant Kumar**, for his guidance, help and advising me to understand what kind of design is better for user.
-* Tutor Support, for their endless support, all the time and great atitude.
+* Tutor Support, for their efforts support, all the time and great atitude.
