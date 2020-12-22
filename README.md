@@ -13,6 +13,8 @@
 - [Testing](#testing)
 - [Bugs and fixes](#Bugs-and-fixes)
 - [Deployment](#deployment)
+- [Credits](#credits)
+
 ## __Overview__:
 I designed this website in three pages with same navigation, connect with us and footer section to show consistancy to user and so that they can move around and find signup and contact information not matter which page they are on.
 As tremendous increase in awareness now everybody wants to participate in cleaning mother earth and change their life style.
@@ -105,8 +107,9 @@ I wanted to make first-time user see what this website is about without reading 
  to convert to plant-based diet.
  * picture for meet-up page is a group of people enjoying coffee and having a conversation to show that is exactly how we intend to do 
  out meet-ups.
- * __Color:__ Color for the website is green which is the color of Mother-earth. To inspire user that this is how earth is supposed to be clean and green.
+ * __Color:__ Color for the website is green which is the color of Mother-earth. To inspire user that this is how earth is supposed to be, Clean and green.
  * color used for links is green so that user can differentiate between text and links.
+ * __Layout:__ The website in medium screen is not centered i made this design choice because centered view for medium screen is out-dated and boring. So i choose to have two columns side by side in each container and the third column under them in middle. Which , i think, gives it more aesthatic beauty.
 
 
 ### __Technologies Used__:
