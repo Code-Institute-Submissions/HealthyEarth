@@ -1,4 +1,4 @@
-  ![Image of website(/imagesmd/website.png?raw=true "Title")
+ ![Image of website landing page](/imagesmd/website.png?raw=true "Title")
 # Healthy world Healthy Us MS1 project.
 ## project name and summry of concept
 * With increasing garbage in world and awareness in diet people want to clean that polution in their areas and make changes in their life style so that they can lead a healthy life. For some people it is easy but for other they need a push start. The primary purpose of this website is to encourage people to clean their environment and to help them make healthy changes in their life with the help of a group/participants so they know they are not alone in this.
@@ -181,17 +181,10 @@ to fix the bug. The videos and StackOverFlow helped me figure out the problem wh
  ![Wireframe of page 1](/wireframes/page1.png?raw=true "Title")
 
 - Healthy diet Page:
-  ![Image of website(/wireframes/page2.png?raw=true "Title")
+ ![Wireframe of page 2](/wireframes/page2.png?raw=true "Title")
 
 - Meetup Page:
-  ![Image of website(/wireframes/page3.png?raw=true "Title")
-
-
-
-
-
-
-
+ ![Wireframe of page 3](/wireframes/page3.png?raw=true "Title")
 
 
 ___
