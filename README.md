@@ -178,7 +178,7 @@ to fix the bug. The videos and StackOverFlow helped me figure out the problem wh
 ### Wireframes:
 *  Please click the link to download PDF: ![WireFreames](/wireframes/wireframe.pdf?raw=true "Title")
 - Landing Page:
-  ![Image of website(/wireframes/page1.png?raw=true "Title")
+ ![Wireframe of page 1](/wireframes/page1.png?raw=true "Title")
 
 - Healthy diet Page:
   ![Image of website(/wireframes/page2.png?raw=true "Title")
