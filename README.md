@@ -158,6 +158,17 @@ to fix the bug. The videos and StackOverFlow helped me figure out the problem wh
 ### __Unfixed bugs__:
 * On mobile devises the cover-text container is not showing its full text. it is convaying the information it is intended to but the full text if not visible. I tried to fix it in many ways but everytime i ended up disfiguring some other part of that section. I will however, keep on trying to figure it out.
 * Social media icons are not responding at different screen widths as i want them to. They change size when viewed on xl-screen and on xs-screens but i would like them in medium size in medium screen size, which i was unable to figure out how to do. Pretty sure its my some silly mistake.
+* Website is on its full width on all devices provided by chrome-dev-tools but it came to my attention in last hour that its showing some side left-out space in iphone 11 and above. Since they are not provided by dev-tools so i didn't know about it earlier. here are the screenshots of both Iphone 12Pro Max and Samsung Note10+. Note 10 is 
+deploying website as intended but when we zoom out in Iphone 12ProMax it shows a side zoom. i added viewport size in head of my Html but it is not working. This shows the importance of checking website across different devices.
+* On Samsung Note 10 Plus:
+ ![Image of website on Samsung note 10 plus](/imagesmd/note10.jpeg?raw=true "Title")
+
+* On Iphone 12 Pro Max:
+ ![Image of website on Iphone 12 Pro Max](/imagesmd/Iphone12.jpeg?raw=true "Title")
+
+ 
+
+
 
 ---
 ### __Testing__:
